@@ -1,0 +1,292 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Crimson Text', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header_section {
+
+    background-image: url(image/donation5.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header_content {
+    margin: 0px auto;
+    padding: 130px;
+    text-align: center;
+    background-image: linear-gradient(#ffffff1f, #00000091, #000000f2);
+}
+
+
+.header_h3 {
+    font-size: 63px;
+    color: rgb(255, 255, 255);
+    line-height: 66px;
+}
+
+
+p.header_pera {
+    font-size: 18px;
+    color: rgb(250, 255, 250);
+    margin-bottom: 38px;
+    margin-top: 15px;
+}
+
+.Donate_btn {
+    background: orangered;
+    padding: 12px 45px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+
+#Donate_Today_section {
+    width: 60%;
+    margin: 63px auto 80px;
+    text-align: center;
+}
+
+.today_h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.today_p {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.amount_container_wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+
+}
+
+.amount_box {
+    margin: 20px;
+    background: rgb(133 139 137 / 15%);
+    padding: 14px;
+    border-radius: 5px;
+    color: #0a214a;
+}
+
+#amount_box_active {
+    border: 2px solid #ef4420;
+    background: #d11f1f73;
+    color: white;
+}
+
+.amount_input {
+    display: block;
+    width: 413px;
+    height: 27px;
+    text-align: center;
+    border-color: rgba(191, 191, 191, 0.21);
+    margin: auto auto 35px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #17237aab;
+}
+
+.amount_section_btn {
+    background: orangered;
+    padding: 14px 45px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+#Our_Donate_Plan_section {
+
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.Plan_text-h1 {
+    font-size: 40px;
+    margin: 12px;
+}
+
+.Plan_text-p {
+    margin-bottom: 28px;
+    font-size: 14px;
+}
+
+.Donate_Plan_box_wrap {
+
+    display: flex;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+#PlanBox_margin {
+
+    margin: 20px;
+    padding: 15px;
+
+}
+
+
+.Plan_box_1 {
+    background-color: #7fe78761;
+    width: 1328px;
+    margin-right: 17px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.Plan_box_2 {
+    background-color: #3eb1c569;
+    width: 1328px;
+    margin-right: 17px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.Plan_box_3 {
+    background-color: rgb(237 20 61 / 16%);
+    width: 1328px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.planBox_heading {
+    margin: 18px;
+}
+
+#food {
+    margin-top: 15px;
+}
+
+#Shelter {
+    margin-top: 15px;
+}
+
+img#Education {
+    margin-top: 15px;
+}
+
+
+#Food_crisis_section {
+    display: flex;
+    width: 85%;
+    margin: 0px auto 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Food_crisis_text {
+    width: 50%;
+
+}
+
+.Food_crisis_h1 {
+    font-size: 49px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #091b4e;
+    display: inline;
+    color: #0037ff;
+}
+
+.Food_crisis_p {
+    margin: 20px;
+    background: #4686952e;
+    padding: 19px;
+    line-height: 26px;
+    color: #0c0f74;
+}
+
+
+.Food_crisis_image {
+
+    width: 50%;
+}
+
+.Food_crisis_image img {
+
+    width: 100%;
+}
+
+#Food_crisis_pic_shadow {
+    border-radius: 5px;
+    box-shadow: 1px 5px 20px black;
+}
+
+span {
+    font-size: 14px;
+}
+
+
+#My_Updates_section {
+
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+.My_Updates_h1 {
+    font-size: 31px;
+    margin: 8px;
+}
+
+.My_Updates_pera {
+    font-size: 14px;
+    margin: 12px;
+    margin-bottom: 23px;
+}
+
+.My_Updates_input {
+    padding: 11px 25px;
+    width: 200px;
+    border: none;
+    border-radius: 3px;
+}
+
+
+.My_Updates_submit {
+    padding: 8px 25px;
+    background-color: #ef3535;
+    border: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    margin-left: -5px;
+}
+
+.my_updates_input_wrap {
+    background-color: #3976dd8c;
+    padding: 65px;
+    margin-bottom: 50px;
+
+}
+
+.footer {
+    padding: 36px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+#footer_h1 {
+    font-size: 31px;
+}
